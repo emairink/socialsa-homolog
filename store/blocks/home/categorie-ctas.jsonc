@@ -1,0 +1,134 @@
+{
+    "flex-layout.col#card-omega3" : {
+        "children" : [
+            "image#omegaPill",
+            "rich-text#omegaTitle",
+            "rich-text#omegaSubtitle",
+            "link#omega3-cta"
+        ],
+
+        "props": {
+            "blockClass" : "category__card"
+        }
+    },
+
+
+    "image#omegaPill" : {
+        "props" : {
+            "src": "assets/icons/orangepill.png",
+            "maxHeight": "20px",
+            "blockClass" : "pill_icon"
+        }
+    },
+
+    "rich-text#omegaTitle" : {
+        "props" : {
+            "text": "Ômega 3",
+            "blockClass" : "category__card-title"
+        }
+    },
+
+    "rich-text#omegaSubtitle" : {
+        "props" : {
+            "text": "Previne doenças e melhora a \n disposição do seu pet",
+            "blockClass" : "category__card-subtitle"
+        }
+    },
+
+    "link#omega3-cta": {
+        "props": {
+          "href": "/omega3",
+          "label": "Confira",
+          "blockClass": "category__cta"
+        }
+      },
+
+      "flex-layout.col#card-azpet" : {
+        "children" : [
+            "image#azPill",
+            "rich-text#azPetTitle",
+            "rich-text#azpetSubtitle",
+            "link#azpet-cta"
+        ],
+
+        "props": {
+            "blockClass" : "category__card--purple"
+        }
+    },
+
+
+    "image#azPill" : {
+        "props" : {
+            "src": "assets/icons/purplepill.png",
+            "maxHeight": "20px",
+            "blockClass" : "pill_icon"
+        }
+    },
+
+    "rich-text#azPetTitle" : {
+        "props" : {
+            "text": "AZ Pet",
+            "blockClass" : "category__card-title"
+        }
+    },
+
+    "rich-text#azpetSubtitle" : {
+        "props" : {
+            "text": "Todos os nutrientes essenciais diários para a saúde do seu pet.",
+            "blockClass" : "category__card-subtitle"
+        }
+    },
+
+    "link#azpet-cta": {
+        "props": {
+          "href": "/azpet",
+          "label": "Confira",
+          "blockClass": "category__cta"
+        }
+      },
+
+      "flex-layout.col#card-peloepele" : {
+        "children" : [
+            "image#peloepelePill",
+            "rich-text#peloepeleTitle",
+            "rich-text#peloepeleSubtitle",
+            "link#peloepele-cta"
+        ],
+
+        "props": {
+            "blockClass" : "category__card--blue"
+        }
+    },
+
+
+    "image#peloepelePill" : {
+        "props" : {
+            "src": "assets/icons/bluepill.png",
+            "maxHeight": "20px",
+            "blockClass" : "pill_icon"
+        }
+    },
+
+    "rich-text#peloepeleTitle" : {
+        "props" : {
+            "text": "Pelo & Pele",
+            "blockClass" : "category__card-title"
+        }
+    },
+
+    "rich-text#peloepeleSubtitle" : {
+        "props" : {
+            "text": "Especialmente para fortalecer a pele e os pelos do seu pet.",
+            "blockClass" : "category__card-subtitle"
+        }
+    },
+
+    "link#peloepele-cta": {
+        "props": {
+          "href": "/pelo-e-pele",
+          "label": "Confira",
+          "blockClass": "category__cta"
+        }
+      }
+
+}

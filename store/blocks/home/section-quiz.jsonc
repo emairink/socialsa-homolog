@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#sectionquizContainer" : {
+        "children" : [
+            "flex-layout.col#sectionquizLeft",
+            "image#quiz-image"
+        ],
+
+        "props" : {
+            "blockClass" : "quiz__section"
+        }
+    },
+
+
+    "flex-layout.col#sectionquizLeft" : {
+        "children" : [
+            "rich-text#section-quiz-title",
+            "rich-text#section-quiz-subtitle",
+            "link#quiz-cta"
+        ],
+
+        "props" : {
+            "blockClass" : "quiz__section-left"
+        }
+    },
+
+    "rich-text#section-quiz-title" : {
+        "props": {
+            "text": "Suplementos que fazem \n a diferença!",
+            "blockClass": "section__quiz-title"
+          }
+    },
+
+    "rich-text#section-quiz-subtitle" : {
+        "props": {
+            "text": "Responda nosso quiz e descubra o que seu pet\n precisa para uma vida mais saudável!",
+            "blockClass": "section__quiz-subtitle"
+          }
+    },
+
+    "link#quiz-cta": {
+        "props": {
+          "href": "/quiz",
+          "label": "Responder Quiz",
+          "blockClass": "quiz__cta"
+        }
+      },
+
+      "image#quiz-image" : {
+        "props" : {
+            "src" : "assets/general-images/quizbannerimage.jpeg",
+            "blockClass" :"quiz__image"
+        }
+      }
+
+}
+    

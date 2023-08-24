@@ -1,0 +1,171 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.row#deal1",
+      "flex-layout.row#deal2",
+      "flex-layout.row#deal3",
+      "flex-layout.row#deal4"
+    ],
+    "props": {
+      "blockClass": "deal"
+    }
+  },
+
+  "flex-layout.row#deal1" : {
+    "children" : [
+      "image#dealTruckIcon",
+      "flex-layout.col#deal1-col"
+    ],
+    "props" : {
+      "blockClass" : "block"
+    } 
+  },
+
+  "flex-layout.col#deal1-col" : {
+    "children" : [
+      "rich-text#TitleDeal1",
+      "rich-text#SubtitleDeal1"
+    ]
+  },
+
+  "image#dealTruckIcon": {
+    "props": {
+      "src": "assets/icons/truck-icon.png",
+      "maxHeight": "37px",
+      "blockClass" : "deal__icon"
+    }
+  },
+
+  "rich-text#TitleDeal1" : {
+    "props": {
+      "text": "Frete Gratis",
+      "blockClass": "deal-title"
+    }
+  },
+  "rich-text#SubtitleDeal1" : {
+    "props": {
+      "text": "para compras acima de R$ 150,00",
+      "blockClass": "deal-subtitle"
+    }
+  },
+
+  "flex-layout.row#deal2" : {
+    "children" : [
+      "image#dealWalletIcon",
+      "flex-layout.col#deal2-col"
+    ],
+    "props" : {
+      "blockClass" : "block"
+    } 
+  },
+
+  "flex-layout.col#deal2-col" : {
+    "children" : [
+      "rich-text#TitleDeal2",
+      "rich-text#SubtitleDeal2"
+    ]
+  },
+
+  "image#dealWalletIcon": {
+    "props": {
+      "src": "assets/icons/wallet-icon.png",
+      "maxHeight": "37px",
+      "blockClass" : "deal__icon"
+    }
+  },
+
+  "rich-text#TitleDeal2" : {
+    "props": {
+      "text": "Parcele suas compras",
+      "blockClass": "deal-title"
+    }
+  },
+  "rich-text#SubtitleDeal2" : {
+    "props": {
+      "text": "Parcele em até 5x sem juros",
+      "blockClass": "deal-subtitle"
+    }
+  },
+
+  "flex-layout.row#deal3" : {
+    "children" : [
+      "image#dealPercentageIcon",
+      "flex-layout.col#deal3-col"
+    ],
+    "props" : {
+      "blockClass" : "block"
+    } 
+  },
+
+  "flex-layout.col#deal3-col" : {
+    "children" : [
+      "rich-text#TitleDeal3",
+      "rich-text#SubtitleDeal3"
+    ]
+  },
+
+  "image#dealPercentageIcon": {
+    "props": {
+      "src": "assets/icons/percentage-icon.png",
+      "maxHeight": "37px",
+      "blockClass" : "deal__icon"
+    }
+  },
+
+  "rich-text#TitleDeal3" : {
+    "props": {
+      "text": "Mais Economia",
+      "blockClass": "deal-title"
+    }
+  },
+  "rich-text#SubtitleDeal3" : {
+    "props": {
+      "text": "Compre os nossos kits",
+      "blockClass": "deal-subtitle"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#deal4" : {
+    "children" : [
+      "image#dealShieldIcon",
+      "flex-layout.col#deal4-col"
+    ],
+    "props" : {
+      "blockClass" : "block"
+    } 
+  },
+
+  "flex-layout.col#deal4-col" : {
+    "children" : [
+      "rich-text#TitleDeal4",
+      "rich-text#SubtitleDeal4"
+    ]
+  },
+
+  "image#dealShieldIcon": {
+    "props": {
+      "src": "assets/icons/shield-icon.png",
+      "maxHeight": "37px",
+      "blockClass" : "deal__icon"
+    }
+  },
+
+  "rich-text#TitleDeal4" : {
+    "props": {
+      "text": "Compra segura",
+      "blockClass": "deal-title"
+    }
+  },
+  "rich-text#SubtitleDeal4" : {
+    "props": {
+      "text": "Loja com SSL e Proteção de Dados",
+      "blockClass": "deal-subtitle"
+    }
+  }
+
+}

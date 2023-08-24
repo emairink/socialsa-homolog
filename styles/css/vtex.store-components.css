@@ -1,0 +1,432 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+.imageElement--pet-hands-img {
+  width: 300px;
+}
+
+
+.imageElement--quiz__image {
+  height: 380px;
+  width: 100%;
+}
+
+.infoCardContainer--infocard__category2nd {
+  max-width: 430px;
+}
+
+.infoCardHeadline--infocard__category2nd {
+    color: #000;
+    margin: 0px 5px;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 22px!important;
+    font-weight: 400;
+    min-height: 75px;
+    white-space: break-spaces;
+    width: 170px;
+}
+
+.infoCardTextContainer--infocard__category2nd {
+  margin: 30px 0px 0px 10px;
+}
+
+.infoCardContainer--infocard__category2nd {
+    background: #FFDBDB;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0;
+}
+
+.infoCardContainer--info-card-2 {
+  background: #DAC9EB!important;
+}
+
+.infoCardContainer--info-card-3 {
+  background: #BFE4E1!important;
+}
+
+
+.infoCardCallActionContainer--infocard__category2nd {
+  background: #fff;
+  border: none;
+  border-radius: 50px;
+  color: #000;
+  height: 40px;
+  padding: 0px 0px 0px 12px;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.infoCardCallActionContainer--infocard__category2nd :global(.vtex-button) {
+  align-items: center;
+  background: transparent;
+  border: none!important;
+  /* border-radius: 50px; */
+  color: #000;
+  display: flex;
+}
+
+.infoCardContainer--info-card-1 :global(.vtex-button)::after {
+  background: #FE7E00;
+  align-items: center;
+}
+
+
+.infoCardContainer--info-card-2 :global(.vtex-button)::after {
+  background: #A26EE5;
+}
+
+.infoCardContainer--info-card-3 :global(.vtex-button)::after {
+  background: #4FC9C0;
+}
+
+.infoCardCallActionContainer--infocard__category2nd :global(.vtex-button)::after {
+  align-items: center;
+  background-image: url(assets/icons/short-arrow-right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  content: '';
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  text-align: center;
+  width: 29px;
+  position: relative;
+  left: 7px;
+}
+
+
+.infoCardImage--infocard__category2nd {
+  margin: 5px 0px 0px 0px;
+}
+
+.infoCardCallActionContainer--infocard__category2nd :global(.vtex-button__label) {
+  padding: 0;
+  text-transform: capitalize!important;
+}
+
+.infoCardCallActionContainer--section__pills-banner {
+  text-decoration: none;
+}
+
+.infoCardContainer--section__pills-banner {
+  background-image: url(assets/general-images/banner1-pills-bg.png);
+  border-radius: 20px;
+  max-width: 1340px;
+  padding: 15px 200px 6px 120px
+}
+.infoCardContainer--section__pills-banner2 {
+  background-image: url(assets/general-images/banner-bluepills.png);
+}
+
+.infoCardContainer--section__pills-banner3 {
+  background-image: url(assets/general-images/banner-orangepills.png);
+}
+
+
+/* sliderLayoutContainer--carousel__pills */
+
+.infoCardImageContainer--section__pills-banner {
+  padding: 0px 0px 20px 100px;
+}
+
+.infoCardHeadline--section__pills-banner {
+  color: #fff;
+  max-width: 85%;
+}
+
+.infoCardCallActionContainer--section__pills-banner :global(.vtex-button) {
+  text-decoration: none;
+}
+
+.infoCardSubhead--section__pills-banner {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 500px;
+}
+
+.infoCardCallActionContainer--section__pills-banner :global(.vtex-button__label) {
+  text-transform: capitalize;
+}
+
+.infoCardCallActionContainer--section__pills-banner :global(.vtex-button) {
+  align-items: center;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoCardCallActionContainer--section__pills-banner :global(.vtex-button)::after {
+  align-items: center;
+  background-color: #734BAF;
+  background-image: url(assets/icons/short-arrow-right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  content: '';
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: -10px;
+  width: 30px;
+}
+
+.infoCardCallActionContainer--section__pills-banner2 :global(.vtex-button)::after {
+  background-color: #4EC0B6;
+}
+
+.infoCardCallActionContainer--section__pills-banner3 :global(.vtex-button)::after {
+  background-color: #FE7E00;
+}
+
+.infoCardContainer--infocard__banner-prescreva {
+  background-color: #CAD1D7;
+  background-image: url(assets/general-images/baner-gradient-darkpurple.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 380px;
+  margin: 50px auto;
+  max-width: 1345px;
+  padding: 10px 10px 0px 100px;
+}
+
+.infoCardHeadline--infocard__banner-prescreva, .infoCardSubhead--infocard__banner-prescreva {
+  color: #fff;
+}
+
+.infoCardSubhead--infocard__banner-prescreva {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  max-width: 477px;
+  font-weight: bold;
+}
+
+.infoCardCallActionContainer--infocard__banner-prescreva :global(.vtex-button) {
+  align-items: center;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.infoCardCallActionContainer--infocard__banner-prescreva :global(.vtex-button)::after {
+  align-items: center;
+  background-color: #734BAF;
+  background-image: url(assets/icons/short-arrow-right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  content: '';
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: -10px;
+  width: 30px;
+}
+
+.infoCardHeadline--pre-footer-section-card-general , .infoCardSubhead--pre-footer-section-card-general {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.infoCardHeadline--pre-footer-section-card-general {
+  font-size: 30px;
+}
+
+
+.infoCardContainer--pre-footer-section-card-general {
+  background-color: #9AA3FE;
+  background-image: url(assets/general-images/cat-dog.png);
+  border-radius: 10px;
+  height: 360px;
+  max-width: 660px;
+  padding: 10px 10px 0px 40px;
+}
+
+
+.infoCardCallActionContainer--pre-footer-section-card-1 :global(.vtex-button) {
+  align-items: center;
+  background-color: #fff;
+  border: none!important;
+  border-radius: 50px;
+  color: #000;
+  display: flex;
+}
+
+.infoCardCallActionContainer--pre-footer-section-card-1 :global(.vtex-button)::after {
+  align-items: center;
+  background-color: #2A1246;
+  background-image: url(assets/icons/short-arrow-right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  content: '';
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: -10px;
+  width: 30px;
+}
+
+.infoCardImage--pre-footer-section-card-2, .infoCardImage--pre-footer-section-card-1 {
+  visibility: hidden;
+}
+
+
+.infoCardContainer--pre-footer-section-card-2 {
+  background-color: #58ada5;
+  background-image: url(assets/general-images/dog-bottom-right.png);
+}
+
+.infoCardCallActionContainer--pre-footer-section-card-2 :global(.vtex-button) {
+  align-items: center;
+  background-color: #fff;
+  border: none!important;
+  border-radius: 50px;
+  color: #000;
+  display: flex;
+}
+
+.infoCardCallActionContainer--pre-footer-section-card-2 :global(.vtex-button)::after {
+  align-items: center;
+  background-color: #4FC9C0;
+  background-image: url(assets/icons/short-arrow-right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  content: '';
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: -10px;
+  width: 30px;
+}
+
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+  .label {
+     font-size: 40px;
+  }
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}

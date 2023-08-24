@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#linha-categorias" : {
+        "children" : [
+            "flex-layout.col#firstItem",
+            "flex-layout.col#card-omega3",
+            "flex-layout.col#card-azpet",
+            "flex-layout.col#card-peloepele"
+        ],
+
+        "props": {
+            "blockClass" : "linha-categorias-topo"
+        }
+    },
+
+    "flex-layout.col#firstItem" : {
+        "children" : [
+            "rich-text#title",
+            "image#pet-hands"
+        ]
+    },
+
+    "rich-text#title" : {
+        "props" : {
+            "text": "O que seu \n**pet** precisa?",
+            "blockClass" : "categories-first-item-text"
+        }
+    },
+
+    "image#pet-hands" : {
+        "props" : {
+            "src": "assets/general-images/pet-hands.png",
+            "maxHeight": "90px",
+            "blockClass" : "pet-hands-img"
+        }
+    }
+
+}

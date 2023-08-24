@@ -1,0 +1,16 @@
+{
+    "info-card#banner-section-after-shelf": {
+        "props": {
+            "id": "infocard__banner-prescreva",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/general-images/veterinaria-single.png",
+            "headline": "Prescreva produtos Yanno ",
+            "subhead" : "Sendo um prescritor, você tem descontos exclusivos nos suplementos Yanno",
+            "callToActionText": "Saiba mais",
+            "callToActionUrl": "/categoria/2",
+            "blockClass": ["infocard__banner-prescreva"],
+            "textAlignment": "left"
+        }
+    }
+}

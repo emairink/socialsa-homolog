@@ -1,0 +1,36 @@
+{
+"rich-text#shelf-title": {
+    "props": {
+      "text": "Cuide bem do seu pet com Yanno ",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "props": {
+        "blockClass": "shelf__wrapper__home"
+    },
+
+    "children": ["list-context.product-list#shelf-home-products"]
+  },
+  "list-context.product-list#shelf-home-products": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "collection": "138"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots" : "always",
+      "fullWidth": false,
+      "blockClass": ["shelf"]
+    }
+  }
+}

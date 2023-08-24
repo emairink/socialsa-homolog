@@ -1,0 +1,86 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+  min-height: 450px;
+}
+
+.sliderLayoutContainer--carousel__pills {
+  margin: 0 auto 50px auto;
+  max-width: 1340px;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+
+.sliderLeftArrow--carousel__pills, .sliderRightArrow--carousel__pills {
+  background: url(https://socialsahomolog.vtexassets.com/assets/vtex/assets-builder/socialsahomolog.store-theme/5.1.0/general-images/carousel-arrow-left___d3deb77….png)!important;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 32px;
+  padding: 16px;
+  width: 33px;
+  margin: 10px 0px 10px 60px;
+}
+
+.sliderRightArrow--carousel__pills {
+  transform: rotate(180deg);
+  margin: 0px 136px 0px 0px;
+
+}
+
+
+.sliderLeftArrow--carousel__pills :global(.vtex-slider-layout-0-x-caretIcon), .sliderRightArrow--carousel__pills :global(.vtex-slider-layout-0-x-caretIcon) {
+  display: none;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+  min-height: 550px;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.paginationDotsContainer {
+  top: 580px;
+}
+
+.paginationDot--carousel {
+  background: #FFDBDB;
+}
+
+.paginationDot--isActive {
+  background: #FE7E00;
+}
+
+.imageElement--carousel {
+  width: 100%;
+}
+
+.slideChildrenContainer--shelf :global(.vtex-product-summary-2-x-container) {
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+  max-width: 450px!important;
+  height: 455px;
+}
+
+
+.sliderLayoutContainer--shelf {
+  margin: 0 auto;
+  max-width: 1450px;
+}

@@ -1,0 +1,9 @@
+.wishlistIconContainer {
+    position: absolute;
+    right: 20px;
+}
+
+.outline {
+    background: url(assets/icons/Coracao.png)!important;
+    background-size: cover!important;
+}

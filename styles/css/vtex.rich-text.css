@@ -1,0 +1,182 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--deal-subtitle {
+  color: #2A1246;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  width: 261px;
+}
+
+.paragraph--deal-title {
+  align-items: flex-start;
+  color: #2A1246;
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  height: 0!important;
+  justify-content: flex-start;
+  line-height: normal;
+  text-align: left;
+  width: 300px;
+}
+
+.paragraph--deal__subtitle {
+  color: #2A1246;
+  font-size: 11px;
+  font-style: normal;
+  height: 0!important;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.wrapper--deal-title .flexColChild {
+  width: 400px!important;
+}
+
+.paragraph--categories-first-item-text {
+  color: #000;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+/* .paragraph--category__card-title {
+
+} */
+
+.paragraph--category__card-title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  height: 50%;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph--category__card-subtitle {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -20px;
+  padding: 0;
+}
+
+.paragraph--section__quiz-title {
+  color: #2A1246;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.paragraph--section__quiz-subtitle {
+  color: #2A1246;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.paragraph--shelfTitle {
+  color: #000;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 50px auto 25px auto;
+  text-align: center;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

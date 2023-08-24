@@ -1,0 +1,19 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+}
+
+.productHighlightText {
+  background: #ECDAFE;
+  border-radius: 20px;
+  color: #2A1246;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding: 2px 12px;
+}

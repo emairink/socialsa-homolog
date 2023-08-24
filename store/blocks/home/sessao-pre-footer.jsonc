@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#pre-footer-section" : {
+        "children" : [
+            "info-card#pre-footer-section-card-1",
+            "info-card#pre-footer-section-card-2"
+        ],
+
+        "props" : {
+            "blockClass" : "pre-footer-row"
+        }
+    },
+
+    "info-card#pre-footer-section-card-1": {
+    "props": {
+    "id": "info-card-1",
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "assets/general-images/cat-dog.png",
+    "headline": "Ômega 3",
+    "subhead" : "O ômega 3 é um produto canino com uma fórmula inovadora e exclusiva, desenvolvida para promover a saúde dos seus cães.",
+    "callToActionText": "Saiba mais",
+    "callToActionUrl": "/categoria/2",
+    "blockClass": ["pre-footer-section-card-1", "pre-footer-section-card-general"],
+    "textAlignment": "left"
+    }
+},
+
+"info-card#pre-footer-section-card-2": {
+    "props": {
+    "id": "info-card-2",
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "assets/general-images/cat-dog.png",
+    "headline": "Ômega 3",
+    "subhead" : "O ômega 3 é um produto canino com uma fórmula inovadora e exclusiva, desenvolvida para promover a saúde dos seus cães.",
+    "callToActionText": "Saiba mais",
+    "callToActionUrl": "/categoria/2",
+    "blockClass": ["pre-footer-section-card-2", "pre-footer-section-card-general"],
+    "textAlignment": "left"
+    }
+}
+}

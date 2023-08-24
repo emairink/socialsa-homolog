@@ -1,0 +1,234 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+.flexRow--deal {
+  display: flex;
+  gap: 20px;
+  margin: 70px auto;
+  max-width: 1400px;
+}
+
+.flexRow--deal {
+
+}
+
+.flexRowContent--linha-categorias-topo :global(.vtex-store-link-0-x-link--category__cta) {
+  text-decoration: none;
+}
+
+.flexRow--deal__wrapper {
+  border-radius: 10px 1px 10px 5px;
+  margin: 0 10px;
+  width: 324px!important;
+}
+
+.flexCol--deal__textWrapper {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--deal__textWrapper {
+  align-items: unset;
+}
+
+.flexRow--deal .stretchChildrenWidth {
+  align-items: center;
+  background: #D8FFFB;
+  border-radius: 10px 1px 10px 5px;
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  width: 324px!important;
+}
+
+.flexRowContent--block {
+  width: 162px;
+}
+
+.flexRowContent--block .stretchChildrenWidth {
+  width: 90px!important;
+  height: 80px;
+}
+
+.flexRow--quiz__section {
+  background: linear-gradient(180deg, #E1E2E6 0%, #DDDEE3 49.78%, #D1D5D8 100%), linear-gradient(90deg, #EAEBEF 0%, #DADCE0 50.24%, #DADDE0 100%);
+  border-radius: 10px;
+  height: 380px;
+  margin: 80px auto 100px auto;
+  max-width: 1340px;
+}
+
+.flexRowContent--segunda__categoria-row {
+  max-width: 1340px;
+  height: 171px;
+  margin: 0px auto 60px auto;
+}
+
+.flexCol--quiz__section-left {
+  padding: 80px 75px;
+}
+
+.shelf__bottom-wrapper :global(.vtex-button) {
+  width: fit-content;
+}
+
+
+.flexRowContent--pre-footer-row {
+  max-width: 1340px;
+  margin: 20px auto;
+}
+
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+
+.flexRow--linha-categorias-topo {
+  margin: 0 auto;
+  max-width: 1340px;
+}
+
+.flexCol--category__card, .flexCol--category__card--purple, .flexCol--category__card--blue {
+  background: #FFDBDB;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  padding: 20px;
+  max-width: 308px;
+}
+
+.flexCol--category__card--purple {
+  background: #DAC9EB!important;
+}
+
+.flexCol--category__card--blue {
+  background: #BFE4E1!important;
+}
+
+.flexRowContent--shelf__bottom-wrapper .stretchChildrenWidth:last-child :global(.vtex-button) {
+  background: #16c347;
+  border: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 3px;
+  width: 93px;
+}
+
+.flexRowContent--shelf__bottom-wrapper .stretchChildrenWidth :global(.vtex-button__label) {
+  background: url(assets/icons/addToCartBtn.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  margin-left: 10px;
+  width: 80px;
+}
+
+.flexRowContent--shelf__bottom-wrapper :global(.vtex-numeric-stepper__minus-button), .flexRowContent--shelf__bottom-wrapper :global(.vtex-numeric-stepper__plus-button) {
+  background-color: transparent;
+  border: none;
+  color: #16C346;
+  font-size: 2rem;
+  left: -12px;
+  position: relative;
+  top: 13px;
+}
+
+.flexRowContent--shelf__bottom-wrapper :global(.vtex-numeric-stepper__plus-button) {
+  left: -36px;
+  top: 14px;
+}
+
+.flexRowContent--shelf__bottom-wrapper :global(.vtex-numeric-stepper__input) {
+  border-radius: 10px 0px 0px 10px;
+  font-size: 22px;
+  margin-left: 13px;
+  padding: 27px 0px;
+  position: absolute;
+  width: 119px;
+}
+
+
+
+.flexRow--shelf__bottom-wrapper-container {
+  border-bottom: 1px;
+  border-color: #DADADA;
+  padding: 10px;
+}

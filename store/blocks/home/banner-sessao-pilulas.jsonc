@@ -1,0 +1,61 @@
+{
+    "slider-layout#slider-section-capsulas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots" : "never",
+      "blockClass": "carousel__pills"
+    },
+    "children": ["info-card#section-pills", "info-card#section-pills2", "info-card#section-pills3"]
+  },
+
+    "info-card#section-pills": {
+        "props": {
+        "id": "section-pills-1",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/general-images/Capsulas.png",
+        "headline": "Um suplemento que vale\n por todos ",
+        "subhead" : "O A-Z PET é indicado para reforçar o aporte nutricional dos nutrientes da fórmula para cães e gatos, em qualquer idade, de todas as raças e tamanhos. Esses suplementos são úteis quando há necessidade de fornecer nutrientes adicionais para ajudar na manutenção da saúde dos pets.",
+        "callToActionText": "Saiba mais",
+        "callToActionUrl": "/categoria/2",
+        "blockClass": ["section__pills-banner1", "section__pills-banner"],
+        "textAlignment": "left"
+        }
+    },
+
+        "info-card#section-pills2": {
+            "props": {
+            "id": "section-pills-1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/general-images/Capsulas2.png",
+            "headline": "Transforme o pelo do seu pet com um único suplemento ",
+            "subhead" : "O Pelo & Pele é indicado para o fortalecimento e manutenção da estrutura e função da pele e pelos de cães e gatos, em qualquer idade, de todas as raças e tamanhos.",
+            "callToActionText": "Saiba mais",
+            "callToActionUrl": "/categoria/2",
+            "blockClass": ["section__pills-banner2", "section__pills-banner"],
+            "textAlignment": "left"
+            }
+        },
+
+        "info-card#section-pills3": {
+            "props": {
+            "id": "section-pills-1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/general-images/Capsulas3.png",
+            "headline": "Um aliado nutricional para uma vida plena ",
+            "subhead" : "A fórmula Ômega 3 é indicada para cães e gatos, em qualquer idade e de todas as raças, que necessitem reforçar o aporte nutricional de ômega3 EPA+DHA, considerados essenciais para a saúde dos cães.",
+            "callToActionText": "Saiba mais",
+            "callToActionUrl": "/categoria/2",
+            "blockClass": ["section__pills-banner3", "section__pills-banner"],
+            "textAlignment": "left"
+            }
+        }
+}

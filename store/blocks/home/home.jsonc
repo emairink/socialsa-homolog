@@ -1,0 +1,77 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "flex-layout.row#deals",
+      "flex-layout.row#linha-categorias",
+      "flex-layout.row#sectionquizContainer",
+      "flex-layout.row#segunda-categoria",
+      "slider-layout#slider-section-capsulas",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "info-card#banner-section-after-shelf",
+      "flex-layout.row#pre-footer-section"
+    ]
+  },
+
+  "link#azpet-cta": {
+    "props": {
+      "href": "/azpet",
+      "label": "Confira",
+      "blockClass": "category__cta"
+    }
+  },
+
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#fullbanner-top"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/banners/Banner-home.png",
+          "mobileImage": "assets/banners/Banner-home.png",
+          "link": {
+            "url": "/todos-os-produtos"
+          }
+        },
+        {
+          "image": "assets/banners/Banner-home.png",
+          "mobileImage": "assets/banners/Banner-home.png",
+          "link": {
+            "url": "/todos-os-produtos"
+          }
+        },
+        {
+          "image": "assets/banners/Banner-home.png",
+          "mobileImage": "assets/banners/Banner-home.png",
+          "link": {
+            "url": "/todos-os-produtos"
+          }
+        },
+        {
+          "image": "assets/banners/Banner-home.png",
+          "mobileImage": "assets/banners/Banner-home.png",
+          "link": {
+            "url": "/todos-os-produtos"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#fullbanner-top": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "carousel"
+    }
+  }
+}

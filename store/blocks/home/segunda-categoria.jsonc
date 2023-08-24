@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#segunda-categoria" : {
+        "children" : [
+            "info-card#segunda-categoria-card1",
+            "info-card#segunda-categoria-card2",
+            "info-card#segunda-categoria-card3"
+        ],
+        "props" : {
+            "blockClass" : "segunda__categoria-row"
+        }
+
+    },
+
+    "info-card#segunda-categoria-card1": {
+        "props": {
+        "id": "info-card-1",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/general-images/orangedog.png",
+        "headline": "Pouca disposição?",
+        "callToActionText": "Saiba mais",
+        "callToActionUrl": "/categoria/2",
+        "blockClass": ["info-card-1", "infocard__category2nd"],
+        "textAlignment": "left"
+        }
+    },
+
+    "info-card#segunda-categoria-card2": {
+        "props": {
+        "id": "info-card-1",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/general-images/purpledog.png",
+        "headline": "Baixa imunidade?",
+        "callToActionText": "Saiba mais",
+        "callToActionUrl": "/categoria/2",
+        "blockClass": ["info-card-2", "infocard__category2nd"],
+        "textAlignment": "left"
+        }
+    },
+
+    "info-card#segunda-categoria-card3": {
+        "props": {
+        "id": "info-card-1",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/general-images/bluedog.png",
+        "headline": "Alergias e quedas de pelos?",
+        "callToActionText": "Saiba mais",
+        "callToActionUrl": "/categoria/2",
+        "blockClass": ["info-card-3", "infocard__category2nd"],
+        "textAlignment": "left"
+        }
+    }
+}
